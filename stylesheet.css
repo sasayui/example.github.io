@@ -127,7 +127,7 @@ p{
   padding: 30px;
 }
 #brand{
-  background-image: url(../images/brand.jpeg);
+  background-image: url(https://github.com/sasayui/example.github.io/blob/main/brand.jpeg?raw=true);
   background-size: cover;
   height:100vh;
   padding-top: 30px;
