@@ -197,10 +197,12 @@ footer p{
 .footer-nav a:hover {
   color:#333132;
 }
-/* モバイル版 */
+
 @media (max-width: 600px) {
  h1{
-  font-size: 1rem;
+  font-size: 1.3rem;
+  text-align: center;
+  padding-bottom: 10px;
  } 
  #menu{
   position: absolute;
@@ -210,10 +212,27 @@ footer p{
   border: none;
   cursor: pointer;
  }
+ .page-header{
+  justify-content: space-between;
+  display: block;
+
+ }
  .main-nav li{
    font-size: 15px;
    padding-top: 10px;
+   margin-left: 5px;
+   margin-right: 5px;
+   text-align: center;
  }
+ .main-nav{
+  display:flex;
+  flex-wrap: nowrap;
+  text-align: center;
+  justify-content: space-between;
+
+ }
+ 
+
 
  
 
@@ -229,11 +248,19 @@ footer p{
   padding-top:100px;
 }
 #products ul{
-  flex-wrap: wrap;
+   display:flex;
+   flex-wrap: wrap;
+   margin-top: 50px;
+
 }
 #products li{
-  width:50%;
-  overflow-wrap: wrap;
+  width: calc((100% - 40px) / 2);
+  margin:10px;
 }
+.wrapper img{
+  width:85%;
+  height:auto;
+}
+
  
 }
